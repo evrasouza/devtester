@@ -18,7 +18,7 @@ const init = async () => {
         }
     });
 
-    server.route({
+     server.route({
         method: 'GET',
         path: '/user',
         handler: (request, h) => {
